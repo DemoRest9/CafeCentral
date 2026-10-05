@@ -1,0 +1,14 @@
+/* ჩატვირთე style.css-ის შემდეგ */
+.sub-menu-container.active { max-height: 20000px; } /* გრძელი მენიუ აღარ მოიჭრება */
+.item-price-action .price { min-width: 70px; }
+
+/* ---- Reviews ---- */
+.review-card { text-align: left; }
+.review-stars { display: block; color: var(--brass); font-size: 1.15rem; letter-spacing: 2px; margin-bottom: 12px; }
+.review-card .value-text { font-style: italic; margin-bottom: 14px; }
+.review-author { font-size: 0.85rem; font-weight: 600; color: var(--ink); }
+.review-cta { text-align: center; margin-top: 34px; }
+.review-btn { display: inline-block; padding: 13px 26px; background: var(--wine); color: var(--parchment); border: 1px solid var(--wine); font-weight: 600; transition: background 0.2s ease; }
+.review-btn:hover { background: var(--wine-bright); }
+.category-image:empty { background: var(--charcoal-soft); min-height: 120px; }
+.review-summary { text-align: center; color: var(--brass); font-size: 1.1rem; font-weight: 600; margin: -10px 0 26px; }
